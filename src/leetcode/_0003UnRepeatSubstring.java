@@ -9,7 +9,7 @@ package leetcode;
  */
 import java.util.LinkedList;
 
-public class _3UnRepeatSubstring {
+public class _0003UnRepeatSubstring {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String ss = "abcabcbb";

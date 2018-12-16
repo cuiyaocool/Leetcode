@@ -11,7 +11,7 @@ import java.util.Map;
  * @author cy
  *
  */
-public class _146_LRU_Cache {
+public class _0146_LRU_Cache {
 
 	static ListNode head;
 	static ListNode tail;
@@ -19,7 +19,7 @@ public class _146_LRU_Cache {
 	static Map<Integer, ListNode> map = new HashMap<Integer, ListNode>();
 	private static int capcity;
 
-	public _146_LRU_Cache(int x) {
+	public _0146_LRU_Cache(int x) {
 		capcity = x;
 	}
 
@@ -87,7 +87,7 @@ public class _146_LRU_Cache {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 _146_LRU_Cache cache = new  _146_LRU_Cache(2);
+		 _0146_LRU_Cache cache = new  _0146_LRU_Cache(2);
 		 cache.put(1, 1);
 		 cache.put(2, 2);
 		 System.out.println(cache.get(1));       // returns 1

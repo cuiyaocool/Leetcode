@@ -14,7 +14,7 @@ package leetcode;
  * 
  * https://leetcode-cn.com/problems/median-of-two-sorted-arrays/description/
  */
-public class _4MidNum {
+public class _0004MidNum {
 
 	public static double findMidInSortedArray(int[] a, int[] b) {
 		int alen = a.length;

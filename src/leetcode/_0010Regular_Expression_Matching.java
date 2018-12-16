@@ -14,8 +14,10 @@ package leetcode;
  * @author cuiyao
  *
  */
-public class _10Regular_Expression_Matching {
+public class _0010Regular_Expression_Matching {
 	static boolean[][] nums = null;
+	
+	//fun1
 	static boolean isMatch_Recursion(String s, String p) {
 		if (p.isEmpty()) {
 			return s.isEmpty();
@@ -29,6 +31,7 @@ public class _10Regular_Expression_Matching {
 		}
 	}
 	
+	//fun2
 	static boolean isMatch_dp(String s, String p, int ss, int ps) {
 		if(ss == 0 && ps == 0){
 			nums = new boolean[s.length() + 1][p.length() + 1];

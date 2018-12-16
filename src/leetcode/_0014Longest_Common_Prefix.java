@@ -1,6 +1,6 @@
 package leetcode;
 
-public class _14Longest_Common_Prefix {
+public class _0014Longest_Common_Prefix {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

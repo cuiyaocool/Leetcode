@@ -10,7 +10,7 @@ import java.util.Arrays;
  * @author cy
  *
  */
-public class _15Three_Sum_IS_Zero {
+public class _0015Three_Sum_IS_Zero {
 
 	public static void main(String[] args) {
 		int[] nums = {-1, 0, 1, 2, -1, 3, -2, -4};

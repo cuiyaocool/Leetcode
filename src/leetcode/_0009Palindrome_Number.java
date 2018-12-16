@@ -3,10 +3,12 @@ package leetcode;
 /**
  * Determine whether an integer is a palindrome. 
  * An integer is a palindrome when it reads the same backward as forward.
+ * 
+ * https://leetcode-cn.com/problems/palindrome-number/
  * @author cy
  *
  */
-public class _9Palindrome_Number {
+public class _0009Palindrome_Number {
 	
 	public static boolean isPalindrome(int x){
 		if (x < 0 || (x % 10 == 0 && x != 0)) {

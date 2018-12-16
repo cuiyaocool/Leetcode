@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 import common.TreeNode;
 
-public class _450DelNodeInBST {
+public class _0450DelNodeInBST {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

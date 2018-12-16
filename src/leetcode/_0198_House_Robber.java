@@ -1,6 +1,6 @@
 package leetcode;
 
-public class _198_House_Robber {
+public class _0198_House_Robber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -11,7 +11,7 @@ package leetcode;
  * @author cy
  *
  */
-public class _6ZCover {
+public class _0006ZCover {
 	public static void zCover(String s, int numRows) {
 		
 		StringBuilder[] builders = new StringBuilder[numRows];

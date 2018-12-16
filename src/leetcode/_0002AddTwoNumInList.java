@@ -10,7 +10,7 @@ import common.ListNode;
  * @author cy
  *
  */
-public class _2AddTwoNumInList {
+public class _0002AddTwoNumInList {
 	
 	public static ListNode addTwoNum(ListNode l1, ListNode l2) {
 		ListNode resListNode = new ListNode();

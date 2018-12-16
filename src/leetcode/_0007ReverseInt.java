@@ -1,12 +1,18 @@
 package leetcode;
+/**
+ * https://leetcode-cn.com/problems/reverse-integer/
+ * @author cy
+ *
+ */
 
-public class _7ReverseInt {
+public class _0007ReverseInt {
 
 	public static void reverseInt(int num) {
 		
 		int res = 0;
 		while (num != 0) {
 			int temp = num % 10;
+			System.out.println(temp);
 			num = num / 10;
 			if (res > Integer.MAX_VALUE / 10 || res < Integer.MIN_VALUE || 
 					(res == Integer.MAX_VALUE / 10 && temp > 7) || 
@@ -21,7 +27,7 @@ public class _7ReverseInt {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		reverseInt(123);
-		reverseInt(-987);
+		reverseInt(-9837);
 	}
 
 }

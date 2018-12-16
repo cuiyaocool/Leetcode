@@ -12,7 +12,7 @@ package leetcode;
  * 
  * https://leetcode-cn.com/problems/string-to-integer-atoi/description/
  */
-public class _8String2Int {
+public class _0008String2Int {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
